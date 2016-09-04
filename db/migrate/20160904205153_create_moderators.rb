@@ -1,6 +1,6 @@
-class CreateModerator < ActiveRecord::Migration[5.0]
+class CreateModerators < ActiveRecord::Migration[5.0]
   def change
-    create_table :moderator do |t|
+    create_table :moderators do |t|
       t.string :fullname
       t.string :username
       t.string :password_digest
