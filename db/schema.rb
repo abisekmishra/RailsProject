@@ -12,14 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20160904205153) do
 
-  create_table "moderator", force: :cascade do |t|
-    t.string   "fullname"
-    t.string   "username"
-    t.string   "password_digest"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
-  end
-
   create_table "moderators", force: :cascade do |t|
     t.string   "fullname"
     t.string   "username"
