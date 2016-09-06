@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 moderators = Moderator.create(fullname:"Aditya Padhi",username:"adipadhi",password:"adi")
+moderator2 = Moderator.create(fullname:"Abisek Mishra",username:"abisekmishra",password:"abhu")
